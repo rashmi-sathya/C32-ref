@@ -94,7 +94,7 @@ async function getBackgroundImg(){
     var responseJSON = await response.json();
 console.log(responseJSON)
     var datetime = responseJSON.datetime;
-    var hour = datetime.slice(12,13);
+    var hour = datetime.slice(10,13);
     console.log(datetime);
     console.log(hour);
     if(hour>=06 && hour<=19){
