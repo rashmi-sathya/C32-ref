@@ -79,7 +79,7 @@ function keyPressed(){
     if(keyCode===32)
     slingshot.attach(bird.body);
 }
-async function getBackgroundImg(){
+async function getTime(){
     var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
     var responseJSON = await response.json();
 console.log(responseJSON)
